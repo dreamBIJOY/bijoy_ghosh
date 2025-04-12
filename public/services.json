@@ -1,0 +1,36 @@
+[
+    {
+      "title": "UI/UX Design",
+      "icon": "https://i.imghippo.com/files/VBe2190LI.png",
+      "items": [
+        "Landing Pages",
+        "User Flow",
+        "Wireframing",
+        "Prototyping",
+        "Mobile App Design"
+      ]
+    },
+    {
+      "title": "Development",
+      "icon": "https://i.imghippo.com/files/NVx6059SjE.png",
+      "items": [
+        "HTML/CSS",
+        "JavaScript",
+        "Animation",
+        "WordPress",
+        "React"
+      ]
+    },
+    {
+      "title": "Illustration",
+      "icon": "https://i.imghippo.com/files/EOu8711QcM.png",
+      "items": [
+        "Character Design",
+        "Icon Set",
+        "Illustration Guide",
+        "Illustration Set",
+        "Motion Graphic"
+      ]
+    }
+  ]
+  
