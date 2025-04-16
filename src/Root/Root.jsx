@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom'
 import Header from '../components/header/Header'
 import Footer from '../components/footer/Footer'
 
-function Router() {
+function Root() {
   return (
 
     <>
@@ -14,4 +14,4 @@ function Router() {
   )
 }
 
-export default Router
+export default Root
