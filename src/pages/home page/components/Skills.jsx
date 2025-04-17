@@ -30,7 +30,7 @@ const App = () => {
   return (
     <div className="w-11/12 max-w-8xl mx-auto py-10 px-4">
       <div>
-        <h1 className="text-2xl sm:text-3xl lg:text-4xl text-center text-[#ffb400] font-semibold">
+        <h1 className="text-2xl sm:text-3xl lg:text-7xl text-center text-[#ffb400] font-semibold">
           MY <span className="text-gray-600">SKILLS</span>
         </h1>
       </div>
@@ -39,7 +39,6 @@ const App = () => {
           <Skill key={idx} label={skill.label} percentage={skill.percentage} />
         ))}
       </div>
-      <hr className="text-gray-200 w-11/12 mt-16 mx-auto" />
     </div>
   );
 };
