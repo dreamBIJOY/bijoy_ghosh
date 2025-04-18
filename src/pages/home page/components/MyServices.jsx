@@ -36,30 +36,30 @@ function MyServices() {
           </h2>
         </div>
 
-        <div className="flex items-center gap-10 justify-center mt-10 flex-wrap">
+        <div className="flex items-center gap-10 justify-center mt-10 flex-wrap animate-">
           {services.map((service, index) => (
             <div
-              className="w-[280px] h-[410px] p-6 rounded-xl bg-[#F1EFEC] shadow-2xl hover:-translate-y-2.5 cursor-pointer hover:drop-shadow-2xl"
               key={index}
+              className="w-[280px] h-[410px] p-6 rounded-2xl bg-gradient-to-br from-gray-100 to-gray-200 shadow-xl transform transition-transform duration-500 hover:-translate-y-4 hover:rotate-[1deg] hover:shadow-2xl cursor-pointer perspective-1000 "
             >
-              <div>
+              <div className="transition-transform duration-500 ease-in-out hover:scale-[1.02]">
                 <img
-                  className="w-[70px] drop-shadow-[0_0_5px_]"
+                  className="w-[70px] drop-shadow-md"
                   src={service.icon}
                   alt=""
                 />
               </div>
 
-              <div>
-                <h1 className="text-2xl font-semibold mt-3 text-gray-700">
+              <div className="mt-5">
+                <h1 className="text-2xl font-semibold text-gray-800">
                   {service.title}
                 </h1>
 
                 <div className="flex flex-col gap-2 mt-4">
-                  {service.items.map((data, index) => (
-                    <div key={index}>
+                  {service.items.map((data, i) => (
+                    <div key={i}>
                       <h1 className="text-lg flex items-center gap-1 text-gray-700">
-                        <IoIosArrowForward />
+                        <IoIosArrowForward className="text-[#ff7e5f]" />
                         {data}
                       </h1>
                     </div>

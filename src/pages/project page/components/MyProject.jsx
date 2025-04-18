@@ -36,7 +36,7 @@ function MyProject() {
 
         {/* View Button on Hover */}
         <div className="absolute inset-0 bg-black bg-opacity-40 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-          <button className="px-6 py-2 bg-[#ffb400] text-black font-semibold rounded-full hover:bg-white transition">
+          <button className="px-6 py-2  bg-[#ffb400] text-black font-semibold rounded-full hover:bg-white transition">
             View
           </button>
         </div>

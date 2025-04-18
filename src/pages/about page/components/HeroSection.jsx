@@ -47,7 +47,7 @@ function HeroSection() {
           </div>
 
           <div className="mt-10">
-            <a href="/sample.pdf" download>
+            <a href="/CV.pdf" download>
               <button className="w-44 md:w-56 h-12 md:h-14 rounded-full border-2 border-[#ffb400] text-sm md:text-base text-gray-600 bg-transparent transition-all duration-300 hover:bg-[#ffb400] hover:text-white">
                 DOWNLOAD CV
               </button>
